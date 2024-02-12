@@ -5,7 +5,7 @@ var bodyParser = require('body-parser')
 const path = require("path")
 
 
-const base_url = "http://node57339-daienv-8730375.proen.app.ruk-com.cloud:11581"
+const base_url = "http://node57336-daienv-8730375.proen.app.ruk-com.cloud:11544"
 
 app.set("views",path.join(__dirname,"/public/views"))
 app.set('view engine', 'ejs')
