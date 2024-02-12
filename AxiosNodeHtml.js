@@ -10,7 +10,7 @@ const path = require("path");
 
 // Base URL for the API
 //const base_url = "https://api.example.com";
-const base_url = "http://10.104.17.35";
+const base_url = "http://node57339-daienv-8730375.proen.app.ruk-com.cloud:11581";
 
 // Set the template engine
 app.set("view", path.join(__dirname, "/public/views"));
