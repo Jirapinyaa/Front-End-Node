@@ -4,8 +4,8 @@ const app = express()
 var bodyParser = require('body-parser')
 const path = require("path")
 
-
-const base_url = "http://node57336-daienv-8730375.proen.app.ruk-com.cloud"
+const base_url = "http://localhost:3000"
+//const base_url = "http://node57336-daienv-8730375.proen.app.ruk-com.cloud"
 
 app.set("views",path.join(__dirname,"/public/views"))
 app.set('view engine', 'ejs')
@@ -82,4 +82,4 @@ app.get('/delete/:id',async(req,res)=>{
    }
 })
 
-app.listen(5600,()=> console.log(`Listening on port 5600`))
+app.listen(5600,()=> console.log(`Listening on port 5500`))
